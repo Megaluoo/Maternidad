@@ -16,4 +16,7 @@ export const router = createBrowserRouter([
       { path: "contacto", Component: Contact },
     ],
   },
-]);
+], {
+  // CAMBIA ESTO TAMBIÉN PARA QUE COINCIDA CON vite.config.ts
+  basename: "/nombre-de-tu-repo" 
+});
