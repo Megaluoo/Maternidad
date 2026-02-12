@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   // CAMBIA 'nombre-de-tu-repo' POR EL NOMBRE REAL DE TU REPOSITORIO
   // Ejemplo: si tu repo es https://github.com/usuario/mi-web, pon '/mi-web/'
-  base: '/nombre-de-tu-repo/',
+  base: '/Maternidad/',
 
   plugins: [
     react(),
