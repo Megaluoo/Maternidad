@@ -1,11 +1,13 @@
-import { createBrowserRouter } from "react-router";
+// CAMBIO: Importa createHashRouter en lugar de createBrowserRouter
+import { createHashRouter } from "react-router"; 
 import { Home } from "./pages/Home";
 import { Services } from "./pages/Services";
 import { Budget } from "./pages/Budget";
 import { Contact } from "./pages/Contact";
 import { Layout } from "./components/Layout";
 
-export const router = createBrowserRouter([
+// CAMBIO: Usamos createHashRouter
+export const router = createHashRouter([
   {
     path: "/",
     Component: Layout,
@@ -16,7 +18,4 @@ export const router = createBrowserRouter([
       { path: "contacto", Component: Contact },
     ],
   },
-], {
-  // CAMBIA ESTO TAMBIÉN PARA QUE COINCIDA CON vite.config.ts
-  basename: "/nombre-de-tu-repo" 
-});
+]);
