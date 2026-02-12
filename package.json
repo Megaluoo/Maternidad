@@ -3,6 +3,21 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  
+  "homepage": "https://TU-USUARIO.github.io/NOMBRE-DEL-REPO/",
+
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@emotion/react": "11.14.0",
+    // ... el resto de tus dependencias siguen igual
+{
+  "name": "@figma/my-make-file",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
   "scripts": {
     "build": "vite build",
     "dev": "vite"
